@@ -1,0 +1,58 @@
+{
+  "db": {
+    "connectionString": "mongodb://127.0.0.1/hawk",
+    "user": "soft-XYZ380",
+    "password": "lmk-soft3988"
+  },
+  "db11111": {
+    "connectionString": "mongodb://dds-wz9783f3c06adbb41534-pub.mongodb.rds.aliyuncs.com:3717,dds-wz9783f3c06adbb42175-pub.mongodb.rds.aliyuncs.com:3717/hawk?replicaSet=mgset-11632475",
+    "user": "abc",
+    "password": "abc"
+  },
+  "db1111": {
+    "connectionString": "mongodb://dds-wz977f29249971a41311-pub.mongodb.rds.aliyuncs.com:3717,dds-wz977f29249971a42177-pub.mongodb.rds.aliyuncs.com:3717/hawk?replicaSet=mgset-11156723",
+    "user": "soft-XYZ380",
+    "password": "lmk-soft3988"
+  },
+  "tradeApiUrl": "http://api.sanfanerp.com/",
+  "secret": "localhost",
+  "port": "8080",
+  "aliyun": {
+    "user": {
+      "accessKeyId": "LTAIpLBnEpyk7eTn",
+      "secretAccessKey": "qknnMwM7f5E72qmqRAalWegUnX4T0c"
+    },
+    "sms": {
+      "signName": "三帆外勤",
+      "templateCode": "SMS_152405602"
+    },
+    "oss": {
+      "role": "acs:ram::1856142433359782:role/sanfanrole",
+      "expiracy": 3600,
+      "region": "oss-cn-shenzhen",
+      "bucket": "hawkbet"
+    }
+  },
+  "jpush": {
+    "key": "f4670bd35855482ce09f4b28",
+    "secret": "0e7712ce3beed3b43a919b53"
+  },
+  "xgpush": {
+    "ios": {
+      "appId": "8a79cd5ad47bb",
+      "secretKey": "9fcecbd85b08989020fe461823e0d97b",
+      "environment": "dev"
+    },
+    "android": {
+      "appId": "a389118b586a7",
+      "secretKey": "2a0653fffc0527ea6d30c3957c84bf58"
+    }
+  },
+  "pushMode": "xgpush",
+  "rongcloud": {
+    "appkey": "z3v5yqkbzi4u0",
+    "secret": "h3uexdpncO"
+  },
+  "cronRun": false,
+  "version": "1.6.1"
+}

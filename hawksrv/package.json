@@ -1,0 +1,65 @@
+{
+  "name": "hawksrv",
+  "version": "1.0.0",
+  "description": "backend-service for hawk app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxiaoo/hawksrv.git"
+  },
+  "keywords": [
+    "hawk"
+  ],
+  "author": "pan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxiaoo/hawksrv/issues"
+  },
+  "homepage": "https://github.com/pxiaoo/hawksrv#readme",
+  "_moduleAliases": {
+    "@root": ".",
+    "@company": "app/api/company",
+    "@trace": "app/api/trace",
+    "@user": "app/api/user",
+    "@score": "app/api/score",
+    "@task": "app/api/task",
+    "@timerecord": "app/api/timerecord",
+    "@finance": "app/api/finance",
+    "@lib": "app/lib",
+    "@expense": "app/api/expensemgr",
+    "@reporttemplate": "app/api/reporttemplate",
+    "@reportdata": "app/api/reportdata",
+    "@companylife": "app/api/companylife",
+    "@notification": "app/api/notification",
+    "@visit": "app/api/visit",
+    "@utils": "app/api/utils"
+  },
+  "dependencies": {
+    "@alicloud/pop-core": "^1.7.5",
+    "@alicloud/sms-sdk": "^1.1.4",
+    "ali-oss": "^6.0.1",
+    "axios": "^0.18.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "config": "^2.0.1",
+    "cors": "^2.8.4",
+    "cron": "^1.5.0",
+    "debug": "^4.0.1",
+    "express": "^4.16.3",
+    "express-acl": "^2.0.3",
+    "express-jwt": "^5.3.1",
+    "express-list-endpoints": "^3.0.1",
+    "jpush-async": "^4.0.3",
+    "js-base64": "^2.5.1",
+    "jsonwebtoken": "^8.3.0",
+    "module-alias": "^2.1.0",
+    "mongoose": "^5.2.17",
+    "node-xlsx": "^0.14.1",
+    "rongcloud-sdk": "^3.0.1",
+    "rootpath": "^0.1.2",
+    "xinge": "^1.1.3"
+  }
+}
